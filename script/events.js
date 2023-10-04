@@ -472,11 +472,11 @@ var Events = {
 			if(weapon.type == 'unarmed') {
 				if(!$SM.get('character.punches')) $SM.set('character.punches', 0);
 				$SM.add('character.punches', 1);
-				if($SM.get('character.punches') == 50 && !$SM.hasPerk('boxer')) {
+				if($SM.get('character.punches') == 10 && !$SM.hasPerk('boxer')) {
 					$SM.addPerk('boxer');
-				} else if($SM.get('character.punches') == 150 && !$SM.hasPerk('martial artist')) {
+				} else if($SM.get('character.punches') == 20 && !$SM.hasPerk('martial artist')) {
 					$SM.addPerk('martial artist');
-				} else if($SM.get('character.punches') == 300 && !$SM.hasPerk('unarmed master')) {
+				} else if($SM.get('character.punches') == 30 && !$SM.hasPerk('unarmed master')) {
 					$SM.addPerk('unarmed master');
 				}
 
@@ -528,7 +528,7 @@ var Events = {
 						dmg *= 3;
 					}
 					if(weapon.type == 'unarmed' && $SM.hasPerk('unarmed master')) {
-						dmg *= 2;
+						dmg *= 10;
 					}
 					if(weapon.type == 'melee' && $SM.hasPerk('barbarian')) {
 						dmg = Math.floor(dmg * 1.5);
