@@ -25,7 +25,7 @@ body {
 }
 
 #description textarea::selection {
-	background-color: gray;
+	background-color: darkgrey;
 }
 
 #description textarea::-moz-selection {
@@ -49,7 +49,7 @@ div#saveNotify {
 	position: fixed;
 	top: 10px;
 	right: 20px;
-	background: white;
+	background: goldenrod;
 	opacity: 0;
 }
 
@@ -273,7 +273,7 @@ div.button div.cooldown {
 	left: 0px;
 	z-index: -1;
 	height: 100%;
-	background-color: #DDDDDD;
+	background-color: #DC143C;
 }
 
 /* Up/Down buttons. They're complicated! */
@@ -369,7 +369,7 @@ div.button div.cooldown {
 }
 
 .dnBtn:after, .dnManyBtn:after {
-	border-color: white transparent transparent;
+	border-color: crimson transparent transparent;
 }
 
 .dnBtn:before, .dnManyBtn:before {
@@ -431,7 +431,7 @@ div.tooltip:hover {
 /* Events */
 
 .eventPanel {
-	background: none repeat scroll 0 0 white;
+	background: none repeat scroll 0 0 goldenrod;
 	border: 2px solid transparent;
 	left: 250px;
 	padding: 20px;
@@ -442,11 +442,11 @@ div.tooltip:hover {
 }
 
 body.noMask .eventPanel {
-	background-color: black;
+	background-color: Old gold;
 }
 
 .eventPanel:before {
-	background-color:white;
+	background-color: Old gold;
 	opacity: 0.6;
 	content: " ";
 	height: 700px;
@@ -468,13 +468,13 @@ body.noMask .eventPanel:before {
 	width: 100%;
 	height: 100%;
 	content: " ";
-	border: 2px solid black;
+	border: 2px  crimson;
 	box-shadow: 5px 5px 5px #666666;
 	z-index: -2;
 }
 
 body.noMask .eventPanel:after {
-	border-color: white;
+	border-color: Old gold;
 }
 
 .eventPanel .button {
@@ -637,8 +637,8 @@ body.noMask #description {
 }
 
 #dropMenu {
-	background: none repeat scroll 0 0 white;
-	border: 1px solid black;
+	background: none repeat scroll 0 0 old gold;
+	border: 1px crimson;
 	position: absolute;
 	z-index: 100;
 	padding-top: 5px;
